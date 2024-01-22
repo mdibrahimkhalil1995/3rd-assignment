@@ -1,5 +1,5 @@
 .slider-bg{
-    background-image: url(/images/banner.png);
+    background-image: url(../images/banner.png);
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;https://www.youtube.com/
     color: aliceblue;
 }
 .slider h1{
