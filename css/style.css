@@ -1,3 +1,9 @@
+h2{
+    font-family: garamond;
+    font-weight: 700;
+}
+
+/* ==================================== */
 .slider-bg{
     background-image: url(../images/banner.png);
     height: 500px;
@@ -19,6 +25,7 @@
     color: aliceblue;
 }
 .slider h1{
+    font-family: garamond;
     font-weight: 700;
     color: #fff;
 }
