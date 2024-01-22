@@ -1,10 +1,11 @@
 .slider-bg{
     background-image: url(../images/banner.png);
-    height: 600px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 0;
+    border-radius: 10px;
+
 }
 .slider{
     background: linear-gradient(to top, #0a0a0a, #fffcfc00);
@@ -19,9 +20,14 @@
 }
 .slider h1{
     font-weight: 700;
+    color: #fff;
+}
+.slider p{
+    color: #fff;
 }
 
 .slider-input{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +43,28 @@
    background-color: #B68C5A;
    color: aliceblue;
    font-weight: 700;
+}
+
+.service-box{
+    padding: 50px;
+    border: 0.1px solid #eeeded;
+}
+.service-box:hover{
+    background-color: #F3F3F3;
+}
+.service-box p{
+    text-align: justify;
+}
+.service-box a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color: #B68C5A;
+    border-radius: 50%;
+
 }
 
 @media screen and (max-width:450px){
